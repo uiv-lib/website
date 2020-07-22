@@ -1,0 +1,20 @@
+language: node_js
+sudo: false
+dist: trusty
+cache:
+  yarn: true
+  directories:
+    - node_modules
+node_js:
+  - "lts/*"
+script:
+  - npm run docs:build
+
+deploy:
+  - provider: pages
+    verbose: true
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: docs/.vuepress/dist
+    on:
+      branch: master
