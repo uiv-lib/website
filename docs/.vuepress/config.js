@@ -1,8 +1,18 @@
 module.exports = {
-  base: '/website/',
+  // cache: false,
+  // base: '/website/',
+  description: 'Bootstrap 3 components implemented by Vue 2.',
+  head: [
+    ['meta', { name: 'google-site-verification', content: 'ekuL5J7xK1IdFtP13v3KxpuGKnYS1oCT9PvZdjYm8Eg' }],
+    ['meta', {
+      name: 'keywords',
+      content: 'Bootstrap,Vue,JavaScript,HTML,CSS,Components,Directives,UI,Affix,MessageBox,Notification,ScrollSpy,Alert,Button,ButtonGroup,Breadcrumbs,Carousel,Collapse,DatePicker,Dropdown,Modal,Pagination,Popover,ProgressBar,Tabs,TimePicker,Tooltip,Typeahead,AutoComplete,MultiSelect,Navbar'
+    }]
+  ],
   title: 'uiv',
+  plugins: ['@vuepress/active-header-links'],
   themeConfig: {
-    logo: 'https://user-images.githubusercontent.com/5960988/87894627-d6af0480-ca75-11ea-831f-f24d2719c622.png',
+    logo: '/assets/image/logo.png',
     lastUpdated: 'Last Updated',
     smoothScroll: true,
     repo: 'wxsms/uiv',
