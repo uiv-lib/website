@@ -28,7 +28,6 @@ module.exports = {
     sidebar: [
       {
         title: 'Usage',
-        path: '/usage/getting-started',
         collapsable: false,
         children: [
           '/usage/getting-started',
@@ -37,10 +36,10 @@ module.exports = {
       },
       {
         title: 'Components',
-        path: '/components/affix',
         collapsable: false,
         children: [
           '/components/affix',
+          '/components/alert',
           '/components/collapse'
         ]
       }
