@@ -25,11 +25,11 @@ Extend the default collapse behavior to create an accordion with the panel compo
 
 <collapse-accordion/>
 
-# API Reference
+## API Reference
 
-## [Collapse](https://github.com/wxsms/uiv/blob/master/src/components/collapse/Collapse.vue)
+### [Collapse](https://github.com/wxsms/uiv/blob/master/src/components/collapse/Collapse.vue)
 
-### Props
+#### Props
 
 Name                  | Type       | Default  | Required | Description
 ----------------      | ---------- | -------- | -------- | -----------------------
@@ -37,13 +37,13 @@ Name                  | Type       | Default  | Required | Description
 `tag`                 | String     | div      |          | The HTML tag that render the collapse component.
 `transition-duration` | Number     | 350      |          | Collapse transition speed. Use 0 to disable transition.
 
-### Slots
+#### Slots
 
 Name      | Description
 --------- | -----------------------
 `default` | Replace as the collapse body.
 
-### Events
+#### Events
 
 Name        | Params | Description
 ----------- | ------ | ---------------

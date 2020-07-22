@@ -25,5 +25,9 @@
   table {
     display: table;
     width: 100%;
+
+    th:first-child, td:first-child {
+      width: 100px;
+    }
   }
 </style>
