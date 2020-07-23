@@ -2,10 +2,9 @@
 
 > The affix component toggles `position: fixed` on and off, emulating the effect found with `position: sticky`.
 
-**Note**:
-
-* Hidden on mobile devices.
-* You must provide CSS for the positioning and width of your affixed content.
+::: tip
+You must provide CSS for the positioning and width of your affixed content.
+:::
 
 ::: warning
 Do not use affix on an element contained in a relatively positioned element, such as a pulled or pushed column.
@@ -13,15 +12,11 @@ Do not use affix on an element contained in a relatively positioned element, suc
 
 ## Example
 
-```html
-<affix :offset="50">
-  <ul>
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
-  </ul>
-</affix>
-```
+Try to scroll the page down and see what's happening to the alert:
+
+<affix-example/>
+
+<<< @/docs/.vuepress/components/affix/example.vue
 
 ## API Reference
 
