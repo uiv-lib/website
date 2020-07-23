@@ -18,8 +18,22 @@
 </script>
 
 <style lang="less">
+  @import "~bootstrap/less/variables";
+  @import "~bootstrap/less/mixins";
+  // fix appended to body dropdowns
+  @import "~bootstrap/less/dropdowns";
+
   .uiv {
     @import (less) "~bootstrap/dist/css/bootstrap.min.css";
+
+    .navbar {
+      padding: 0;
+      z-index: unset;
+      top: unset;
+      left: unset;
+      right: unset;
+      height: unset;
+    }
   }
 
   table {

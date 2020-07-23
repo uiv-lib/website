@@ -48,6 +48,13 @@ module.exports = {
             ]
           },
           {
+            title: 'Popup',
+            collapsable: false,
+            children: [
+              '/components/dropdown'
+            ]
+          },
+          {
             title: 'Others',
             collapsable: false,
             children: [
