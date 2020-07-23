@@ -71,7 +71,8 @@ module.exports = {
             collapsable: false,
             children: [
               '/components/navbar',
-              '/components/tabs'
+              '/components/tabs',
+              '/components/breadcrumbs'
             ]
           },
           {
