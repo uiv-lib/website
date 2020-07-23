@@ -70,7 +70,8 @@ module.exports = {
             title: 'Navigation',
             collapsable: false,
             children: [
-              '/components/navbar'
+              '/components/navbar',
+              '/components/tabs'
             ]
           },
           {
