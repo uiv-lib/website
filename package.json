@@ -10,7 +10,8 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.5.2",
     "less-loader": "^6.2.0",
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-redirect": "^1.2.4"
   },
   "dependencies": {
     "bootstrap": "^3.4.1",

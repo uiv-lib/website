@@ -10,7 +10,21 @@ module.exports = {
     }]
   ],
   title: 'uiv',
-  plugins: ['@vuepress/active-header-links'],
+  plugins: {
+    '@vuepress/active-header-links': null,
+    'redirect': {
+      redirectors: [
+        {
+          base: '/usage/',
+          alternative: ['getting-started']
+        },
+        {
+          base: '/components/',
+          alternative: ['btn']
+        }
+      ]
+    }
+  },
   themeConfig: {
     logo: '/assets/image/logo.png',
     lastUpdated: 'Last Updated',
@@ -24,8 +38,8 @@ module.exports = {
     editLinkText: 'Edit this page',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Usage', link: '/usage/getting-started' },
-      { text: 'Components', link: '/components/btn' }
+      { text: 'Usage', link: '/usage/' },
+      { text: 'Components', link: '/components/' }
     ],
     sidebar: [
       {
@@ -96,7 +110,6 @@ module.exports = {
           }
         ]
       }
-
     ]
   }
 }
