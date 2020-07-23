@@ -51,7 +51,8 @@ module.exports = {
             title: 'Popup',
             collapsable: false,
             children: [
-              '/components/dropdown'
+              '/components/dropdown',
+              '/components/modal'
             ]
           },
           {

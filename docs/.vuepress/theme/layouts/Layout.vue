@@ -20,8 +20,21 @@
 <style lang="less">
   @import "~bootstrap/less/variables";
   @import "~bootstrap/less/mixins";
-  // fix appended to body dropdowns
+  // fix some body level styles
   @import "~bootstrap/less/dropdowns";
+  @import "~bootstrap/less/modals";
+  @import "~bootstrap/less/alerts";
+  @import "~bootstrap/less/close";
+  @import "~bootstrap/less/buttons";
+
+  .modal-open .modal {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  body > .alert {
+    z-index: 2000;
+  }
 
   .uiv {
     @import (less) "~bootstrap/dist/css/bootstrap.min.css";
