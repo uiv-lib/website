@@ -77,6 +77,10 @@ new Vue({
 })
 ```
 
+::: tip
+Import from `uiv/dist/something` can ensure bundle size saving, others might not (depend on bundler's tree-shaking).
+:::
+
 ## Browsers
 
 You can load & install uiv package directly in browsers. For example:
@@ -118,8 +122,12 @@ This will simply load the latest version of `uiv.min.js` into your page. For det
 </html>
 ```
 
-This will create a working **Tabs** component on your page.
+This will create a working [Tabs](/components/tabs.html) component on your page.
 
 ## Browser compatibility
 
-All browsers supported by [Vue 2](https://github.com/vuejs/vue) and [Bootstrap 3 CSS](https://github.com/twbs/bootstrap) are suppose to be also supported by this lib  (IE8 and below are not supported).
+All browsers supported by [Vue 2](https://github.com/vuejs/vue) and [Bootstrap 3 CSS](https://github.com/twbs/bootstrap) are suppose to be also supported by this lib.
+
+::: warning
+IE8 and below are not supported.
+:::
