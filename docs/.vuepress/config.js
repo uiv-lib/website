@@ -23,7 +23,9 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit this page',
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/' },
+      { text: 'Usage', link: '/usage/getting-started' },
+      { text: 'Components', link: '/components/btn' }
     ],
     sidebar: [
       {
