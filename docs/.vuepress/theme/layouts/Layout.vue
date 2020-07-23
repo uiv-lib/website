@@ -63,6 +63,7 @@
       left: unset;
       right: unset;
       height: unset;
+      line-height: unset;
     }
   }
 

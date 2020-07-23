@@ -35,7 +35,7 @@ Displays a dialog with an optional message prompting the user to input some text
 ## Global methods
 
 Following global methods for `Vue.prototype` will be added **if uiv is installed**:
- 
+
 * `$alert(options, callback(msg))`
 * `$confirm(options, callback(err, msg))`
 * `$prompt(options, callback(err, msg))`

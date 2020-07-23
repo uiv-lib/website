@@ -67,6 +67,13 @@ module.exports = {
             ]
           },
           {
+            title: 'Navigation',
+            collapsable: false,
+            children: [
+              '/components/navbar'
+            ]
+          },
+          {
             title: 'Others',
             collapsable: false,
             children: [
