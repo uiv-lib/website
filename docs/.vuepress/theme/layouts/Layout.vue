@@ -56,6 +56,19 @@
   .uiv {
     @import (less) "~bootstrap/dist/css/bootstrap.min.css";
 
+    table {
+      width: auto;
+
+      td, th, tr {
+        border: none;
+        background: transparent;
+      }
+
+      td:first-child {
+        width: auto;
+      }
+    }
+
     .navbar {
       padding: 0;
       z-index: unset;

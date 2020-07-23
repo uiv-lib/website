@@ -74,6 +74,16 @@ module.exports = {
             ]
           },
           {
+            title: 'Form',
+            collapsable: false,
+            children: [
+              '/components/multi-select',
+              '/components/typeahead',
+              '/components/date-picker',
+              '/components/time-picker'
+            ]
+          },
+          {
             title: 'Notice',
             collapsable: false,
             children: [
