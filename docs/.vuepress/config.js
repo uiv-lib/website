@@ -63,7 +63,7 @@ module.exports = {
             children: [
               '/components/alert',
               '/components/notification',
-              '/components/message-box',
+              '/components/message-box'
             ]
           },
           {
@@ -76,10 +76,20 @@ module.exports = {
             ]
           },
           {
+            title: 'Indicator',
+            collapsable: false,
+            children: [
+              '/components/pagination',
+              '/components/progress-bar'
+            ]
+          },
+          {
             title: 'Others',
             collapsable: false,
             children: [
-              '/components/affix'
+              '/components/carousel',
+              '/components/affix',
+              '/components/scroll-spy'
             ]
           }
         ]

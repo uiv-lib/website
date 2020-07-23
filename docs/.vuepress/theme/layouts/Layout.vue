@@ -65,6 +65,11 @@
       height: unset;
       line-height: unset;
     }
+
+    .pagination > li > a,
+    .pagination > li > span {
+      text-decoration: none !important;
+    }
   }
 
   table {
