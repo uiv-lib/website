@@ -29,6 +29,11 @@
   @import "~bootstrap/less/tooltip";
   @import "~bootstrap/less/popovers";
   @import "~bootstrap/less/component-animations";
+  @import "~bootstrap/less/forms";
+
+  .form-control {
+    box-sizing: border-box;
+  }
 
   .modal-open .modal {
     overflow-x: hidden !important;

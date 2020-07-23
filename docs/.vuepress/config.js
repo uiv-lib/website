@@ -58,6 +58,15 @@ module.exports = {
             ]
           },
           {
+            title: 'Notice',
+            collapsable: false,
+            children: [
+              '/components/alert',
+              '/components/notification',
+              '/components/message-box',
+            ]
+          },
+          {
             title: 'Others',
             collapsable: false,
             children: [
