@@ -52,7 +52,9 @@ module.exports = {
             collapsable: false,
             children: [
               '/components/dropdown',
-              '/components/modal'
+              '/components/modal',
+              '/components/tooltip',
+              '/components/popover'
             ]
           },
           {

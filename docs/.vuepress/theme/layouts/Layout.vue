@@ -26,6 +26,9 @@
   @import "~bootstrap/less/alerts";
   @import "~bootstrap/less/close";
   @import "~bootstrap/less/buttons";
+  @import "~bootstrap/less/tooltip";
+  @import "~bootstrap/less/popovers";
+  @import "~bootstrap/less/component-animations";
 
   .modal-open .modal {
     overflow-x: hidden !important;
