@@ -14,41 +14,41 @@ Contents in `collapse` slot can be collapsed (and are toggleable) in mobile view
 
 Replace the navbar brand with your own image by swapping the text for an `<img>`. Since the `.navbar-brand` has its own padding and height, you may need to override some CSS depending on your image.
 
-<navbar-image/>
+<navbar-navbar-image/>
 
-<<< @/docs/.vuepress/components/navbar/image.vue
+<<< @/docs/.vuepress/components/navbar/navbar-image.vue
 
 ## Forms
 
 Place form content within `<navbar-form>` for proper vertical alignment and collapsed behavior in narrow viewports. Use the alignment props `left` / `right` to decide where it resides within the navbar content.
 
-<navbar-form/>
+<navbar-navbar-form/>
 
-<<< @/docs/.vuepress/components/navbar/form.vue
+<<< @/docs/.vuepress/components/navbar/navbar-form.vue
 
 ## Buttons
 
 Add the `.navbar-btn` class to `<btn>` that not residing in a `<navbar-form>` to vertically center them in the navbar.
 
-<navbar-button/>
+<navbar-navbar-button/>
 
-<<< @/docs/.vuepress/components/navbar/button.vue
+<<< @/docs/.vuepress/components/navbar/navbar-button.vue
 
 ## Text
 
 Wrap strings of text in `<navbar-text>` tag for proper leading and color.
 
-<navbar-text/>
+<navbar-navbar-text/>
 
-<<< @/docs/.vuepress/components/navbar/text.vue
+<<< @/docs/.vuepress/components/navbar/navbar-text.vue
 
 ## Non-nav links
 
 For folks using standard links that are not within the regular navbar navigation component, use the `.navbar-link` class to add the proper colors for the default and inverse navbar options.
 
-<navbar-links/>
+<navbar-navbar-links/>
 
-<<< @/docs/.vuepress/components/navbar/links.vue
+<<< @/docs/.vuepress/components/navbar/navbar-links.vue
 
 ## Fixed navbar
 
