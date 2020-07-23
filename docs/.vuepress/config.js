@@ -38,11 +38,25 @@ module.exports = {
         title: 'Components',
         collapsable: false,
         children: [
-          '/components/affix',
-          '/components/alert',
-          '/components/collapse'
+          {
+            title: 'Basic',
+            collapsable: false,
+            children: [
+              '/components/btn',
+              '/components/btn-group',
+              '/components/collapse'
+            ]
+          },
+          {
+            title: 'Others',
+            collapsable: false,
+            children: [
+              '/components/affix'
+            ]
+          }
         ]
       }
+
     ]
   }
 }
