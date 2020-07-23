@@ -35,6 +35,15 @@
     overflow-y: auto !important;
   }
 
+  .modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: 0.5 !important;
+  }
+
+  a[role=button] {
+    cursor: pointer;
+  }
+
   body > .alert {
     z-index: 2000;
   }
