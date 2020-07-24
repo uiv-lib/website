@@ -77,7 +77,7 @@ Vue.prototype.$alert = MessageBox.alert
 
 ## API Reference
 
-### [MessageBox](https://github.com/wxsms/uiv/blob/master/src/services/messagebox/MessageBox.vue)
+### [MessageBox](https://github.com/uiv-lib/uiv/blob/1.x/src/services/messagebox/MessageBox.vue)
 
 These props are used as `options` in the methods above.
 

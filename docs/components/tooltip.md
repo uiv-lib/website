@@ -87,7 +87,7 @@ Set `trigger` prop to `manual` to disable all the event listeners, and controls 
 
 ## API Reference
 
-### [Tooltip](https://github.com/wxsms/uiv/blob/master/src/components/tooltip/Tooltip.vue)
+### [Tooltip](https://github.com/uiv-lib/uiv/blob/1.x/src/components/tooltip/Tooltip.vue)
 
 #### Props
 
@@ -103,7 +103,7 @@ Name                  | Type       | Default       | Required | Description
 `auto-placement`      | Boolean    | true          |          | Try to auto adjust the placement if the set one does not have enough space to show.
 `trigger`             | String     | hover-focus   |          | The tooltip trigger event, support `hover` / `focus` / `hover-focus` / `click` / `outside-click` / `manual`
 `append-to`           | String     | body          |          | Element selector that the tooltip append to.
-`transition-duration` | Number     | 150           |          | The tooltip show / hide transition time in ms.
+`transition`          | Number     | 150           |          | The tooltip show / hide transition time in ms.
 `show-delay`          | Number     | 0             |          | (0.30.0+) Delay showing the tooltip (ms).
 `hide-delay`          | Number     | 0             |          | (0.30.0+) Delay hidding the tooltip (ms).
 `viewport`            | String or Function |       |          | (0.31.0+) Keeps the tooltip within the bounds of this element. Example: viewport: '#viewport'. If a function is given, it is called with the triggering element DOM node as its only argument.
@@ -116,7 +116,7 @@ Name        | Params | Description
 `show`      |        | Fire after tooltip show.
 `hide`      |        | Fire after tooltip hide.
 
-### [Directive](https://github.com/wxsms/uiv/blob/master/src/directives/tooltip/tooltip.js)
+### [Directive](https://github.com/uiv-lib/uiv/blob/1.x/src/directives/tooltip/tooltip.js)
 
 The binding value will be the text content of corresponding tooltip.
 

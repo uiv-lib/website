@@ -86,7 +86,7 @@ In case you need to validate something inside a tab before it being switch, a sa
 
 ## API Reference
 
-### [Tabs](https://github.com/wxsms/uiv/blob/master/src/components/tabs/Tabs.vue)
+### [Tabs](https://github.com/uiv-lib/uiv/blob/1.x/src/components/tabs/Tabs.vue)
 
 #### Props
 
@@ -96,7 +96,7 @@ Name                  | Type       | Default  | Required | Description
 `justified`           | Boolean    | false    |          | Use justified style.
 `pills`               | Boolean    | false    |          | Use pills style.
 `stacked`             | Boolean    | false    |          | Use stacked style, note that this have to work with `pills`.
-`transition-duration` | Number     | 150      |          | The tabs show / hide transition time in ms. Use 0 to disable transitions.
+`transition`          | Number     | 150      |          | The tabs show / hide transition time in ms. Use 0 to disable transitions.
 `custom-nav-class`    |            |          |          | (0.30.0+) Apply custom classes to the tab nav, could be Object or String.
 `custom-content-class`|            |          |          | (0.32.0+) Apply custom classes to the tab content, could be Object or String.
 
@@ -115,7 +115,7 @@ Name            | Params                   | Description
 `before-change` | indexFrom, indexTo, done | Trigger before active tab change. Calling `done()` will allow the change. Calling `done(err)`, where `err` is any value, will prevent it. Note that this callback will only trigger on tab clicking.
 `after-change`  | index                    | (0.26.0+) Trigger after tab changed and transition finished, with the active index.
 
-### [Tab](https://github.com/wxsms/uiv/blob/master/src/components/tabs/Tab.vue)
+### [Tab](https://github.com/uiv-lib/uiv/blob/1.x/src/components/tabs/Tab.vue)
 
 #### Props
 

@@ -29,7 +29,7 @@ module.exports = {
     logo: '/assets/image/logo.png',
     lastUpdated: 'Last Updated',
     smoothScroll: true,
-    repo: 'wxsms/uiv',
+    repo: 'uiv-lib/uiv',
     repoLabel: 'Github',
     docsRepo: 'uiv-lib/website',
     docsDir: 'docs',
@@ -39,7 +39,8 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Usage', link: '/usage/' },
-      { text: 'Components', link: '/components/' }
+      { text: 'Components', link: '/components/' },
+      { text: '0.x', link: 'https://uiv-v0.wxsm.space' }
     ],
     sidebar: [
       {

@@ -20,7 +20,7 @@ Extend the default collapse behavior to create an accordion with the panel compo
 
 ## API Reference
 
-### [Collapse](https://github.com/wxsms/uiv/blob/master/src/components/collapse/Collapse.vue)
+### [Collapse](https://github.com/uiv-lib/uiv/blob/1.x/src/components/collapse/Collapse.vue)
 
 #### Props
 
@@ -28,7 +28,7 @@ Name                  | Type       | Default  | Required | Description
 ----------------      | ---------- | -------- | -------- | -----------------------
 `v-model`             | Boolean    | false    | &#10004; | Show / hide the component.
 `tag`                 | String     | div      |          | The HTML tag that render the collapse component.
-`transition-duration` | Number     | 350      |          | Collapse transition speed. Use 0 to disable transition.
+`transition` | Number     | 350      |          | Collapse transition speed. Use 0 to disable transition.
 
 #### Slots
 
