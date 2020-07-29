@@ -7,6 +7,11 @@ module.exports = {
     ['meta', {
       name: 'keywords',
       content: 'Bootstrap,Vue,JavaScript,HTML,CSS,Components,Directives,UI,Affix,MessageBox,Notification,ScrollSpy,Alert,Button,ButtonGroup,Breadcrumbs,Carousel,Collapse,DatePicker,Dropdown,Modal,Pagination,Popover,ProgressBar,Tabs,TimePicker,Tooltip,Typeahead,AutoComplete,MultiSelect,Navbar'
+    }],
+    ['script', {
+      'data-ad-client': 'ca-pub-4714899946256166',
+      async: true,
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
     }]
   ],
   title: 'uiv',
