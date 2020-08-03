@@ -17,6 +17,9 @@ module.exports = {
   title: 'uiv',
   plugins: {
     '@vuepress/active-header-links': null,
+    '@vuepress/google-analytics': {
+      'ga': 'UA-102731925-2'
+    },
     'sitemap': {
       hostname: 'https://uiv.wxsm.space'
     },
