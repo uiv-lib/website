@@ -51,7 +51,8 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Usage', link: '/usage/' },
       { text: 'Components', link: '/components/' },
-      { text: '0.x', link: 'https://uiv-v0.wxsm.space' }
+      { text: '0.x', link: 'https://uiv-v0.wxsm.space' },
+      { text: 'Changelog', link: 'https://github.com/uiv-lib/uiv/releases' }
     ],
     sidebar: [
       {
