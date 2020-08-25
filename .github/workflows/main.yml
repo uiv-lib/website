@@ -26,9 +26,11 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Build
         run: npm run docs:build
-      - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@54066045208a389f6e16e9030494962f8afb4dfc
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.1.2
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          target_branch: gh-pages
+          build_dir: docs/.vuepress/dist
+          jekyll: false
