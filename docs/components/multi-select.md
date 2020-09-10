@@ -103,7 +103,7 @@ Name             | Params                            | Description
 `focus`          | event                             | Triggers when input focuses.
 `blur`           | event                             | Triggers when input blurs.
 
-### Slots
+#### Slots
 
 Name      | Description
 --------- | -----------------------
