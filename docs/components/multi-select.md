@@ -102,3 +102,9 @@ Name             | Params                            | Description
 `limit-exceed`   |                                   | Triggers when the selected value length exceeded limit.
 `focus`          | event                             | Triggers when input focuses.
 `blur`           | event                             | Triggers when input blurs.
+
+### Slots
+
+Name      | Description
+--------- | -----------------------
+`option`  | The option scoped slot, with `item` prop.
