@@ -7,7 +7,10 @@
       <tab title="Profile">
         <p>Profile tab.</p>
       </tab>
-      <tab title="<i class='glyphicon glyphicon-bell'></i> Alert!" html-title>
+      <tab>
+        <div slot="title">
+          <i class='glyphicon glyphicon-bell'></i> Alert!
+        </div>
         <p>This tab has HTML title and callback function!</p>
       </tab>
     </tabs>

@@ -12,7 +12,7 @@ Click on the button below to show a notification. By default, it is dismissible 
 
 ## Types
 
-There're 4 optional types of notification: `info` / `success` / `warning` / `danger` (also alias as `error`). Except `type` option, you can also use registered shortcut methods (0.33.0+, see examples below).
+There're 4 optional types of notification: `info` / `success` / `warning` / `danger` (also alias as `error`). Except `type` option, you can also use registered shortcut methods (see examples below).
 
 Notification with specific type will has a default icon on the left, you can also change or remove the icon by `icon` option.
 

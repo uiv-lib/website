@@ -76,7 +76,7 @@ Change the starting day of the week. Support 0 (Sunday) ~ 6 (Saturday).
 Use `date-class` to apply custom classes to each date button, which should be an function that:
 
 * takes the date of button as the first param.
-* (0.33.0+) also with current month and year showing of the picker in the second param.
+* also with current month and year showing of the picker in the second param.
 * returns the class(es).
 
 See below example for detail usage, which has all sunday highlighted:
@@ -109,4 +109,4 @@ Name                   | Type       | Default                           | Requir
 `year-month-formatter` | Function   |                                   |          | The formatter function of year month label string on top of date view, with 2 params `year` and `month` (0-based), with the formatted string returned.
 `icon-control-left`    | String     | glyphicon glyphicon-chevron-left  |          | The arrow icon shown inside the `previous` button.
 `icon-control-right`   | String     | glyphicon glyphicon-chevron-right |          | The arrow icon shown inside the `next` button.
-`locale`               | Object     |                                   |          | (0.24.0+) The locale used for translating month and weekday names, clear-btn and today-btn texts.
+`locale`               | Object     |                                   |          | The locale used for translating month and weekday names, clear-btn and today-btn texts.

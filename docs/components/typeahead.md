@@ -111,7 +111,7 @@ Name             | Type       | Default  | Required | Description
 Name      | Description
 --------- | -----------------------
 `item`    | Use this scoped slot to override the typeahead item's template.
-`empty`   | (0.25.0+) Slot content will be displayed while no results matched (if the slot exist).
+`empty`   | Slot content will be displayed while no results matched (if the slot exist).
 
 #### Events
 

@@ -46,7 +46,7 @@ Pills are also vertically stackable by adding `stacked`, but if you want the nav
 
 ## Custom titles
 
-With `html-title` prop or `title` slot you can place any content inside nav tabs.
+With `title` slot you can place any content inside nav tabs.
 
 <tabs-custom-titles/>
 
@@ -97,8 +97,8 @@ Name                  | Type       | Default  | Required | Description
 `pills`               | Boolean    | false    |          | Use pills style.
 `stacked`             | Boolean    | false    |          | Use stacked style, note that this have to work with `pills`.
 `transition`          | Number     | 150      |          | The tabs show / hide transition time in ms. Use 0 to disable transitions.
-`custom-nav-class`    |            |          |          | (0.30.0+) Apply custom classes to the tab nav, could be Object or String.
-`custom-content-class`|            |          |          | (0.32.0+) Apply custom classes to the tab content, could be Object or String.
+`custom-nav-class`    |            |          |          | Apply custom classes to the tab nav, could be Object or String.
+`custom-content-class`|            |          |          | Apply custom classes to the tab content, could be Object or String.
 
 #### Slots
 
@@ -113,7 +113,7 @@ Name            | Params                   | Description
 --------------- | -----------              | ---------------
 `change`        | index                    | Trigger after active tab changed, with the active index.
 `before-change` | indexFrom, indexTo, done | Trigger before active tab change. Calling `done()` will allow the change. Calling `done(err)`, where `err` is any value, will prevent it. Note that this callback will only trigger on tab clicking.
-`after-change`  | index                    | (0.26.0+) Trigger after tab changed and transition finished, with the active index.
+`changed`       | index                    | Trigger after tab changed and transition finished, with the active index.
 
 ### [Tab](https://github.com/uiv-lib/uiv/blob/1.x/src/components/tabs/Tab.vue)
 
@@ -122,15 +122,14 @@ Name            | Params                   | Description
 Name             | Type       | Default  | Required | Description
 ---------------- | ---------- | -------- | -------- | -----------------------
 `title`          | String     |          |          | The tab title.
-`html-title`     | Boolean    | false    |          | Use HTML title.
-`tab-classes`    | Object     | {}       |          | (0.25.0+) Object where keys represent class and value is interpreted as a boolean to indicate whether the class should be shown
+`tab-classes`    | Object     | {}       |          | Object where keys represent class and value is interpreted as a boolean to indicate whether the class should be shown
 `disabled`       | Boolean    | false    |          | Disable the tab.
 `group`          | String     |          |          | Tabs nav with same group will in a dropdown list.
 `pull-right`     | Boolean    | false    |          | Add `pull-right` class to the tab nav. A grouped tab will be pull to right if one of its sub-tabs has this prop set to `true`.
-`hidden`         | Boolean    | false    |          | (0.35.0+) Hide the tab, use this prop because `v-show` doesn't work on Tab component.
+`hidden`         | Boolean    | false    |          | Hide the tab, use this prop because `v-show` doesn't work on Tab component.
 
 #### Slots
 
 Name        | Description
 ---------   | -----------------------
-`title`     | (0.35.0+) Title slot. This will override `title` or `html-title` prop if exist.
+`title`     | Title slot. This will override `title` or `html-title` prop if exist.
