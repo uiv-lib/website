@@ -1054,14 +1054,14 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.5.2", "@vuepress/plugin-active-header-links@^1.5.2":
+"@vuepress/plugin-active-header-links@1.5.2":
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-active-header-links/download/@vuepress/plugin-active-header-links-1.5.2.tgz#5408d2ac5aa31d9b1ff581464f7ae0e462c1aa37"
   integrity sha1-VAjSrFqjHZsf9YFGT3rg5GLBqjc=
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-google-analytics@^1.5.2":
+"@vuepress/plugin-google-analytics@1.5.2":
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-1.5.2.tgz#45486a44125a9bba0a5f38ab6e59134bd83c870a"
   integrity sha1-RUhqRBJam7oKXzirblkTS9g8hwo=
@@ -4572,9 +4572,9 @@ latest-version@^5.0.0:
   dependencies:
     package-json "^6.3.0"
 
-less-loader@^6.2.0:
+less-loader@6.2.0:
   version "6.2.0"
-  resolved "https://registry.npm.taobao.org/less-loader/download/less-loader-6.2.0.tgz?cache=0&sync_timestamp=1593787670620&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless-loader%2Fdownload%2Fless-loader-6.2.0.tgz#8b26f621c155b342eefc24f5bd6e9dc40c42a719"
+  resolved "https://registry.npm.taobao.org/less-loader/download/less-loader-6.2.0.tgz#8b26f621c155b342eefc24f5bd6e9dc40c42a719"
   integrity sha1-iyb2IcFVs0Lu/CT1vW6dxAxCpxk=
   dependencies:
     clone "^2.1.2"
@@ -7596,7 +7596,7 @@ vuepress-plugin-dehydrate@1.1.4:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
 
-vuepress-plugin-redirect@^1.2.4:
+vuepress-plugin-redirect@1.2.4:
   version "1.2.4"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-redirect/download/vuepress-plugin-redirect-1.2.4.tgz#e8f7ce578f8a66d9389ce4705d901bf847524ee6"
   integrity sha1-6PfOV4+KZtk4nORwXZAb+EdSTuY=
@@ -7604,7 +7604,7 @@ vuepress-plugin-redirect@^1.2.4:
     "@shigma/stringify-object" "^3.3.0"
     vuepress-plugin-dehydrate "1.1.4"
 
-vuepress-plugin-sitemap@^2.3.1:
+vuepress-plugin-sitemap@2.3.1:
   version "2.3.1"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-sitemap/download/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"
   integrity sha1-USmKynel3pY5b9vRED4WN91hrmo=
@@ -7618,7 +7618,7 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress@^1.5.2:
+vuepress@1.5.2:
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/vuepress/download/vuepress-1.5.2.tgz#b79e84bfaade55ba3ddb59c3a937220913f0599b"
   integrity sha1-t56Ev6reVbo921nDqTciCRPwWZs=
