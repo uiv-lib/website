@@ -7587,20 +7587,20 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-dehydrate@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-dehydrate/download/vuepress-plugin-dehydrate-1.1.4.tgz#4447d95ed78e370ad68f480f33f8ec59e37423c6"
-  integrity sha1-REfZXteONwrWj0gPM/jsWeN0I8Y=
+vuepress-plugin-dehydrate@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-dehydrate/download/vuepress-plugin-dehydrate-1.1.5.tgz#c29f08b85f337d3bc7c0ba09fe58cd9ed2f6e6c1"
+  integrity sha1-wp8IuF8zfTvHwLoJ/ljNntL25sE=
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
 
-vuepress-plugin-redirect@1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-redirect/download/vuepress-plugin-redirect-1.2.4.tgz#e8f7ce578f8a66d9389ce4705d901bf847524ee6"
-  integrity sha1-6PfOV4+KZtk4nORwXZAb+EdSTuY=
+vuepress-plugin-redirect@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-redirect/download/vuepress-plugin-redirect-1.2.5.tgz#1d5a8eacc6f8c511e5d72a379552771e931c2868"
+  integrity sha1-HVqOrMb4xRHl1yo3lVJ3HpMcKGg=
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
-    vuepress-plugin-dehydrate "1.1.4"
+    vuepress-plugin-dehydrate "1.1.5"
 
 vuepress-plugin-sitemap@2.3.1:
   version "2.3.1"
