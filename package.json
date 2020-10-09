@@ -10,7 +10,7 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "1.6.0",
     "@vuepress/plugin-google-analytics": "1.6.0",
-    "less-loader": "6.2.0",
+    "less-loader": "7.0.1",
     "vuepress": "1.6.0",
     "vuepress-plugin-redirect": "1.2.5",
     "vuepress-plugin-sitemap": "2.3.1"
