@@ -4614,7 +4614,7 @@ less-loader@7.0.1:
     loader-utils "^2.0.0"
     schema-utils "^2.7.1"
 
-less@^3.12.2:
+less@3.12.2:
   version "3.12.2"
   resolved "https://registry.npm.taobao.org/less/download/less-3.12.2.tgz#157e6dd32a68869df8859314ad38e70211af3ab4"
   integrity sha1-FX5t0ypohp34hZMUrTjnAhGvOrQ=
