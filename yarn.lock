@@ -1601,7 +1601,7 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha1-oXs6jqgRBg501H0wYSJACtRJeuI=
 
-axios@^0.20.0:
+axios@0.20.0:
   version "0.20.0"
   resolved "https://registry.npm.taobao.org/axios/download/axios-0.20.0.tgz?cache=0&sync_timestamp=1597979901717&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
   integrity sha1-BXujDwSIRpSZOozQf6OUz/EcUL0=
@@ -1736,7 +1736,7 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap@^3.4.1:
+bootstrap@3.4.1:
   version "3.4.1"
   resolved "https://registry.npm.taobao.org/bootstrap/download/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
   integrity sha1-w6NH1Bniia0R9AM+PEEyuHwIHXI=
@@ -7300,7 +7300,7 @@ uglify-js@3.4.x:
     commander "~2.19.0"
     source-map "~0.6.1"
 
-uiv@^1.0.0:
+uiv@1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/uiv/download/uiv-1.0.1.tgz#e3215b041f3c2c2ef401de12fe3efab6df01b49b"
   integrity sha1-4yFbBB88LC70Ad4S/j76tt8BtJs=
