@@ -7300,13 +7300,13 @@ uglify-js@3.4.x:
     commander "~2.19.0"
     source-map "~0.6.1"
 
-uiv@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/uiv/download/uiv-1.0.1.tgz#e3215b041f3c2c2ef401de12fe3efab6df01b49b"
-  integrity sha1-4yFbBB88LC70Ad4S/j76tt8BtJs=
+uiv@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/uiv/download/uiv-1.1.1.tgz#b747b18781f95a77b5215957dc21d34caedb320b"
+  integrity sha1-t0exh4H5Wne1IVlX3CHTTK7bMgs=
   dependencies:
     portal-vue "^2.1.7"
-    vue-functional-data-merge "^2.0.3"
+    vue-functional-data-merge "^3.0.0"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -7549,10 +7549,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz?cache=0&sync_timestamp=1589682787766&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvm-browserify%2Fdownload%2Fvm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
-vue-functional-data-merge@^2.0.3:
-  version "2.0.7"
-  resolved "https://registry.npm.taobao.org/vue-functional-data-merge/download/vue-functional-data-merge-2.0.7.tgz#bdee655181eacdcb1f96ce95a4cc14e75313d1da"
-  integrity sha1-ve5lUYHqzcsfls6VpMwU51MT0do=
+vue-functional-data-merge@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/vue-functional-data-merge/download/vue-functional-data-merge-3.1.0.tgz#08a7797583b7f35680587f8a1d51d729aa1dc657"
+  integrity sha1-CKd5dYO381aAWH+KHVHXKaodxlc=
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
