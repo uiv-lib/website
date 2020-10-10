@@ -17,8 +17,8 @@
     "vuepress-plugin-sitemap": "2.3.1"
   },
   "dependencies": {
-    "axios": "^0.20.0",
-    "bootstrap": "^3.4.1",
-    "uiv": "^1.0.0"
+    "axios": "0.20.0",
+    "bootstrap": "3.4.1",
+    "uiv": "1.0.1"
   }
 }
