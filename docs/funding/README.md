@@ -1,3 +1,5 @@
+# Funding
+
 ## Special thanks
 
 This project is supported by [JetBrains](https://www.jetbrains.com/?from=uiv).
