@@ -133,6 +133,10 @@ module.exports = {
             ]
           }
         ]
+      },
+      {
+        title: 'Funding',
+        path: '/funding/'
       }
     ]
   }
