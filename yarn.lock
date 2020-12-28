@@ -4617,10 +4617,10 @@ latest-version@^5.0.0:
   dependencies:
     package-json "^6.3.0"
 
-less-loader@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.npm.taobao.org/less-loader/download/less-loader-7.2.0.tgz?cache=0&sync_timestamp=1608728449137&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless-loader%2Fdownload%2Fless-loader-7.2.0.tgz#37ba9c778d999930cd24fa1b59aa4e0ba5ba0441"
-  integrity sha1-N7qcd42ZmTDNJPobWapOC6W6BEE=
+less-loader@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.npm.taobao.org/less-loader/download/less-loader-7.2.1.tgz?cache=0&sync_timestamp=1609160728225&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless-loader%2Fdownload%2Fless-loader-7.2.1.tgz#a923df8567256751b0ab4e0c3eecff10fd0a5876"
+  integrity sha1-qSPfhWclZ1Gwq04MPuz/EP0KWHY=
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
