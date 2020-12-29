@@ -7319,10 +7319,10 @@ uglify-js@3.4.x:
     commander "~2.19.0"
     source-map "~0.6.1"
 
-uiv@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.npm.taobao.org/uiv/download/uiv-1.1.5.tgz#4815a5a992723d177be8958714dfde65abbc5ad4"
-  integrity sha1-SBWlqZJyPRd76JWHFN/eZau8WtQ=
+uiv@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/uiv/download/uiv-1.2.0.tgz#a6104f5512c8eeb966a255320cb6a9a91caf4689"
+  integrity sha1-phBPVRLI7rlmolUyDLapqRyvRok=
   dependencies:
     portal-vue "^2.1.7"
     vue-functional-data-merge "^3.0.0"
