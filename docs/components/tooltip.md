@@ -103,6 +103,7 @@ Name                  | Type       | Default       | Required | Description
 `auto-placement`      | Boolean    | true          |          | Try to auto adjust the placement if the set one does not have enough space to show.
 `trigger`             | String     | hover-focus   |          | The tooltip trigger event, support `hover` / `focus` / `hover-focus` / `click` / `outside-click` / `manual`
 `append-to`           | String     | body          |          | Element selector that the tooltip append to.
+`position-by`         | String     |               |          | (1.2.0+) Element selector that the tooltip position by, see [#410](https://github.com/uiv-lib/uiv/issues/410).
 `transition`          | Number     | 150           |          | The tooltip show / hide transition time in ms.
 `show-delay`          | Number     | 0             |          | Delay showing the tooltip (ms).
 `hide-delay`          | Number     | 0             |          | Delay hidding the tooltip (ms).

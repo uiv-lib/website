@@ -112,6 +112,7 @@ Name                  | Type       | Default       | Required | Description
 `auto-placement`      | Boolean    | true          |          | Try to auto adjust the placement if the set one does not have enough space to show.
 `trigger`             | String     | outside-click |          | The popover trigger event, support `hover` / `focus` / `hover-focus` / `click` / `outside-click` / `manual`
 `append-to`           | String     | body          |          | Element selector that the popover append to.
+`position-by`         | String     |               |          | (1.2.0+) Element selector that the popover position by, see [#410](https://github.com/uiv-lib/uiv/issues/410).
 `transition`          | Number     | 150           |          | The popover show / hide transition time in ms.
 `show-delay`          | Number     | 0             |          | Delay showing the Popover (ms).
 `hide-delay`          | Number     | 0             |          | Delay hidding the Popover (ms).
