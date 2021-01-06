@@ -8,11 +8,11 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "1.7.1",
-    "@vuepress/plugin-google-analytics": "1.7.1",
+    "@vuepress/plugin-active-header-links": "1.8.0",
+    "@vuepress/plugin-google-analytics": "1.8.0",
     "less": "4.0.0",
     "less-loader": "7.2.1",
-    "vuepress": "1.7.1",
+    "vuepress": "1.8.0",
     "vuepress-plugin-redirect": "1.2.5",
     "vuepress-plugin-sitemap": "2.3.1"
   },
