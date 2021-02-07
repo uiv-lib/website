@@ -1,21 +1,21 @@
-# Getting Started
+# 使用教程
 
-**uiv** is a Bootstrap 3 component lib implemented by Vue 2.
+**uiv** 是一个基于 Vue 2 的 Bootstrap 3 组件库。
 
-* **Lightweight**
-  * All components **~20KB** Gziped.
-  * No extra CSS file.
-  * Individually import supported.
-* IE 9+ & modern browsers supported.
-* **SSR** (server-side rendering) supported.
-* All env supported:
-  * UMD build `uiv.min.js` can be used in all environments (including browser)
-  * ES Module build `uiv.esm.js` is for modern bundlers like [webpack 2](https://webpack.js.org) or [rollup](https://rollupjs.org)
-  * CommonJS build `uiv.common.js` is for older bundlers like [browserify](http://browserify.org) or [webpack 1](https://webpack.github.io).
+* **轻量**
+  * 所有组件 Gzip 后约 **20KB**。
+  * 没有额外的 CSS 样式。
+  * 支持独立引入。
+* IE 9 以上，以及现代浏览器支持。
+* **SSR** (服务端渲染) 支持。
+* 各类打包环境支持：
+  * UMD 构建 `uiv.min.js` 可以在所有环境中使用（包括浏览器）
+  * ES Module 构建 `uiv.esm.js` 供现代打包工具使用，如 [webpack 2](https://webpack.js.org) 或 [rollup](https://rollupjs.org)
+  * CommonJS 构建 `uiv.common.js` 供老式打包工具使用，如 [browserify](http://browserify.org) 或 [webpack 1](https://webpack.github.io).
 
-## Install
+## 安装
 
-If you are using module bundlers such as Webpack, you can directly include package into your project via:
+如果你正在使用模块打包工具（如 Webpack），可以直接通过 npm 安装：
 
 **NPM**:
 
@@ -23,13 +23,13 @@ If you are using module bundlers such as Webpack, you can directly include packa
 $ npm install uiv --save
 ```
 
-or **Yarn**:
+或 **Yarn**:
 
 ```bash
 $ yarn add uiv
 ```
 
-Then register uiv components and directives all at once in your app's entry:
+然后一次性将所有组件与指令等注册到全局：
 
 ```javascript
 // main.js
@@ -41,33 +41,33 @@ import * as uiv from 'uiv'
 Vue.use(uiv)
 ```
 
-That's it. Happy coding!
+就好了。
 
-### No conflict
+### 无冲突模式
 
-All components & directives will be installed with no prefix by default, you can add any prefix to them to avoid conflicts with other libs if needed.
+默认情况下所有组件与指令在安装时都没有注入前缀，如有需要，可以通过增加前缀来避免与其它库冲突。
 
-For example:
+举例：
 
 ```javascript
 Vue.use(uiv, {prefix: 'uiv'})
 ```
 
-Results in:
+将导致：
 
-* Components such as `<alert>` becomes `<uiv-alert>`
-* Directives such as `v-tooltip` becomes `v-uiv-tooltip`
-* Global methods such as `$alert` becomes `$uiv_alert`
+* 组件如 `<alert>` 将变为 `<uiv-alert>`
+* 指令如 `v-tooltip` 将变为 `v-uiv-tooltip`
+* 全局方法如 `$alert` 将变为 `$uiv_alert`
 
-## Import individually
+## 独立引入
 
-If you don't want all of the components for some reason (e.g. to save the bundle size), you can also import them individually.
+如果你不需要一次性引入所有组件（如希望减小包体大小），同样可以将它们独立引入。
 
-### Example
+### 样例
 
 ```javascript
 import { Alert } from 'uiv'
-// or
+// 或
 // import Alert from 'uiv/dist/Alert'
 
 new Vue({
@@ -78,25 +78,25 @@ new Vue({
 ```
 
 ::: tip
-Import from `uiv/dist/something` can ensure bundle size saving, others might not (depend on bundler's tree-shaking).
+从 `uiv/dist/something` 导入将保证可以节省包体大小，其它方式则未必（取决于打包工具的剪枝能力）。
 :::
 
-## Browsers
+## 浏览器
 
-You can load & install uiv package directly in browsers. For example:
+你可以直接从将 uiv 库加载到浏览器中使用，如：
 
 ```html
-<!-- Remember to import Vue and Bootstrap CSS file before this! -->
+<!-- 在此之间记得先加载 Vue.js 与 Bootstrap CSS！ -->
 <script src="//unpkg.com/uiv"></script>
 ```
 
-This will simply load the latest version of `uiv.min.js` into your page. For detail usages (e.g. load specify version, IMPORTANT in production mode) and different CDN providers, you can visit:
+会直接将 `uiv.min.js` 加载到你的页面中去。 详细用法（如指定版本号，在生产环境中十分重要）以及其他 CDN 供应商，可以访问以下链接：
 
 * [https://unpkg.com](https://unpkg.com)
 * [https://www.jsdelivr.com](https://www.jsdelivr.com/)
 * [https://cdnjs.com/libraries/uiv](https://cdnjs.com/libraries/uiv)
 
-### Complete usage example
+### 完整样例
 
 ```html
 <!-- index.html -->
@@ -114,20 +114,20 @@ This will simply load the latest version of `uiv.min.js` into your page. For det
   </tabs>
 </div>
 <script>
-  // No need to install uiv, we already do this for you after script loaded.
-  // Define `window.__uiv_options` before script loaded if you need install options.
+  // 不需要安装 uiv，当 script 加载完后已经自动安装了，
+  // 如果需要自定义安装参数，可以通过在这之前定义 `window.__uiv_options` 来实现。
   new Vue().$mount('#app')
 </script>
 </body>
 </html>
 ```
 
-This will create a working [Tabs](/components/tabs.html) component on your page.
+这段代码将会在页面上创建一个可使用的 [Tabs](/components/tabs.html) 组件。
 
-## Browser compatibility
+## 浏览器兼容性
 
-All browsers supported by [Vue 2](https://github.com/vuejs/vue) and [Bootstrap 3 CSS](https://github.com/twbs/bootstrap) are suppose to be also supported by this lib.
+所有支持 [Vue 2](https://github.com/vuejs/vue) 与 [Bootstrap 3 CSS](https://github.com/twbs/bootstrap) 的浏览器都能够兼容本库。
 
 ::: warning
-IE8 and below are not supported.
+IE8 及以下不在支持范围内。
 :::

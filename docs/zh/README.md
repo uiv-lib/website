@@ -24,13 +24,13 @@ footer: MIT Licensed | Designed and built by @wxsm
 </p>
 
 
-### Install
+### 安装
 
 ```shell script
 $ yarn add uiv
 ```
 
-### Usage
+### 使用
 
 ```javascript
 import 'bootstrap/dist/css/bootstrap.min.css'

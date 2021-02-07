@@ -59,7 +59,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     smoothScroll: true,
     repo: 'uiv-lib/uiv',
-    repoLabel: 'Github',
+    repoLabel: 'GitHub',
     docsRepo: 'uiv-lib/website',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -163,6 +163,7 @@ module.exports = {
         label: 'English',
       },
       '/zh/': {
+        lastUpdated: '最后更新于',
         selectText: '选择语言',
         label: '简体中文',
         editLinkText: '在 GitHub 上编辑此页',
