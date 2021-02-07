@@ -32,8 +32,26 @@ module.exports = {
         {
           base: '/components/',
           alternative: ['btn']
+        },
+        {
+          base: '/zh/usage/',
+          alternative: ['getting-started']
+        },
+        {
+          base: '/zh/components/',
+          alternative: ['btn']
         }
       ]
+    }
+  },
+  locales: {
+    '/': {
+      lang: 'en-US'
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'uiv',
+      description: '基于 Vue 2 的 Bootstrap 3 组件库'
     }
   },
   themeConfig: {
@@ -46,7 +64,7 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
-    editLinkText: 'Edit this page',
+    editLinkText: 'Edit this page on GitHub',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Usage', link: '/usage/' },
@@ -138,6 +156,109 @@ module.exports = {
         title: 'Funding',
         path: '/funding/'
       }
-    ]
+    ],
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+      },
+      '/zh/': {
+        selectText: '选择语言',
+        label: '简体中文',
+        editLinkText: '在 GitHub 上编辑此页',
+        nav: [
+          { text: '主页', link: '/zh/' },
+          { text: '使用教程', link: '/zh/usage/' },
+          { text: '组件', link: '/zh/components/' },
+          { text: '赞助', link: '/zh/funding/' },
+          { text: '0.x', link: 'https://uiv-v0.wxsm.space' },
+          { text: '更新日志', link: 'https://github.com/uiv-lib/uiv/releases' }
+        ],
+        sidebar: [
+          {
+            title: '使用教程',
+            collapsable: false,
+            children: [
+              '/zh/usage/getting-started',
+              '/zh/usage/i18n'
+            ]
+          },
+          {
+            title: '组件',
+            collapsable: false,
+            children: [
+              {
+                title: '基础',
+                collapsable: false,
+                children: [
+                  '/zh/components/btn',
+                  '/zh/components/btn-group',
+                  '/zh/components/collapse'
+                ]
+              },
+              {
+                title: '弹出内容',
+                collapsable: false,
+                children: [
+                  '/zh/components/dropdown',
+                  '/zh/components/modal',
+                  '/zh/components/tooltip',
+                  '/zh/components/popover'
+                ]
+              },
+              {
+                title: '表单',
+                collapsable: false,
+                children: [
+                  '/zh/components/multi-select',
+                  '/zh/components/typeahead',
+                  '/zh/components/date-picker',
+                  '/zh/components/time-picker'
+                ]
+              },
+              {
+                title: '通知',
+                collapsable: false,
+                children: [
+                  '/zh/components/alert',
+                  '/zh/components/notification',
+                  '/zh/components/message-box'
+                ]
+              },
+              {
+                title: '导航',
+                collapsable: false,
+                children: [
+                  '/zh/components/navbar',
+                  '/zh/components/tabs',
+                  '/zh/components/breadcrumbs'
+                ]
+              },
+              {
+                title: '标志',
+                collapsable: false,
+                children: [
+                  '/zh/components/pagination',
+                  '/zh/components/progress-bar'
+                ]
+              },
+              {
+                title: '其它',
+                collapsable: false,
+                children: [
+                  '/zh/components/carousel',
+                  '/zh/components/affix',
+                  '/zh/components/scroll-spy'
+                ]
+              }
+            ]
+          },
+          {
+            title: '赞助',
+            path: '/zh/funding/'
+          }
+        ],
+      }
+    }
   }
 }
