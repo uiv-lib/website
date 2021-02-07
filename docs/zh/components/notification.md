@@ -1,4 +1,4 @@
-# Notification
+# Notification 通知
 
 > Displays a global notification message at a corner of the page.
 

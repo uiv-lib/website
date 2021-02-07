@@ -1,4 +1,4 @@
-# Popover
+# Popover 弹出框
 
 > Add small overlays of content, like those on the iPad, to any element for housing secondary information.
 

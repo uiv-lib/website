@@ -1,4 +1,4 @@
-# Pagination
+# Pagination 分页
 
 > Provide pagination links for your site or app with the multi-page pagination component.
 

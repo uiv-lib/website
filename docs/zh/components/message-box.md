@@ -1,4 +1,4 @@
-# MessageBox
+# MessageBox 消息提示
 
 > A set of modal boxes simulating system message box, mainly for alerting information, confirm operations and prompting messages.
 

@@ -1,4 +1,4 @@
-# Affix
+# Affix 悬浮
 
 > The affix component toggles `position: fixed` on and off, emulating the effect found with `position: sticky`.
 

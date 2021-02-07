@@ -1,4 +1,4 @@
-# Collapse
+# Collapse 折叠面板
 
 > Flexible plugin for easy toggle behavior.
 

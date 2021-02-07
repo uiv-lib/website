@@ -1,4 +1,4 @@
-# DatePicker
+# DatePicker 日期选择器
 
 > A lightweight & configurable date picker.
 

@@ -1,4 +1,4 @@
-# Carousel
+# Carousel 轮播
 
 > A slideshow component for cycling through elements, like a carousel. **Nested carousels are not supported**.
 

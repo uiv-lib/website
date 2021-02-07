@@ -1,4 +1,4 @@
-# ScrollSpy
+# ScrollSpy 滚动监听
 
 > Update nav targets based on scroll position automatically.
 

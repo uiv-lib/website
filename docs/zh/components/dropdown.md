@@ -1,4 +1,4 @@
-# Dropdown
+# Dropdown 下拉菜单
 
 > Add dropdown menus to nearly anything, including the navbar, tabs, and pills.
 

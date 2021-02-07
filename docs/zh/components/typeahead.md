@@ -1,4 +1,4 @@
-# Typeahead
+# Typeahead 自动填充
 
 > A basic, easily extended component for quickly creating elegant typeaheads with any form text input.
 

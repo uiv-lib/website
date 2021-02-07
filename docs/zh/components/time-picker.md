@@ -1,4 +1,4 @@
-# TimePicker
+# TimePicker 时间选择器
 
 > A lightweight & configurable time picker.
 

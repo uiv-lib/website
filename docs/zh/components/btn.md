@@ -1,62 +1,60 @@
-# Button
+# Button 按钮
 
-> Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
+## 样例
 
-## Examples
-
-Use any of the available button types to quickly create a styled button.
+使用任一类型快速创建带有样式的按钮。
 
 <btn-example/>
 
 <<< @/docs/.vuepress/components/btn/example.vue
 
-## Links
+## 链接
 
-Buttons with `href` or `to` prop will render as link tag.
+带有 `href` 或 `to` 参数的按钮会使用链接标签进行渲染。
 
 <btn-links/>
 
 <<< @/docs/.vuepress/components/btn/links.vue
 
-## Sizes
+## 尺寸
 
-Fancy larger or smaller buttons? Add size `lg`, `sm`, or `xs` for additional sizes.
+需要更大或者更小的按钮？通过 `lg`, `sm`, 或 `xs` 来渲染不同的尺寸。
 
 <btn-sizes/>
 
 <<< @/docs/.vuepress/components/btn/sizes.vue
 
-Create block level buttons—those that span the full width of a parent — by adding `block`.
+通过添加 `block` 参数来创建块级按钮，它会占满父容器的宽度。
 
 <btn-block/>
 
 <<< @/docs/.vuepress/components/btn/block.vue
 
-## Active state
+## 激活状态
 
-Add `active` to make buttons appear pressed (with a darker background, darker border, and inset shadow).
+添加 `active` 参数可以让按钮看起来像被按下了一样（更深色的背景以及边框，以及内嵌阴影）。 
 
 <btn-active/>
 
 <<< @/docs/.vuepress/components/btn/active.vue
 
-## Disabled state
+## 禁用状态
 
-Add `disabled` to make buttons unclickable.
+添加 `disabled` 参数可以让按钮无法点击。
 
 <btn-disabled/>
 
 <<< @/docs/.vuepress/components/btn/disabled.vue
 
-## Checkbox / Radio
+## 多选、单选
 
-Add `input-type` to render `<btn>` as `checkbox` or `radio` input.
+添加 `input-type` 参数以将 `<btn>` 渲染为 `checkbox` 或 `radio` 输入。
 
 ::: tip
-This needed to work with [`btn-group`](/components/btn-group.html) for correct styles.
+这需要与 [`btn-group`](/zh/components/btn-group.html) 配合使用，以获得正确的样式。
 :::
 
-### Checkbox example
+### 多选样例
 
 <br/>
 
@@ -64,7 +62,7 @@ This needed to work with [`btn-group`](/components/btn-group.html) for correct s
 
 <<< @/docs/.vuepress/components/btn/checkbox.vue
 
-### Radio example
+### 单选样例
 
 <br/>
 
@@ -72,43 +70,43 @@ This needed to work with [`btn-group`](/components/btn-group.html) for correct s
 
 <<< @/docs/.vuepress/components/btn/radio.vue
 
-## API Reference
+## API 文档
 
 ### [Btn](https://github.com/uiv-lib/uiv/blob/1.x/src/components/button/Btn.js)
 
-#### Props
+#### 参数
 
 Name             | Type             | Default  | Required | Description
 ---------------- | ----------       | -------- | -------- | -----------------------
-`type`           | String           | default  |          | Button types in Bootstrap. Supported: `default`, `primary`, `info`, `success`, `warning`, `danger`, `link`.
-`native-type`    | String           | button   |          | Native button type. Supported: `button`, `submit`, `reset`.
-`size`           | String           |          |          | Optional button sizes. Supported: `lg`, `sm`, `xs`.
-`block`          | Boolean          | false    |          | Apply block level style.
-`active`         | Boolean          | false    |          | Apply active state.
-`disabled`       | Boolean          | false    |          | Apply disabled state.
-`href`           | String           |          |          | An native link will be created if this prop present.
-`target`         | String           |          |          | Native link prop.
-`to`             | String or Object |          |          | An Vue-Router link will be created if this prop present.
-`replace`        | Boolean          | false    |          | Vue-Router link prop.
-`append`         | Boolean          | false    |          | Vue-Router link prop.
-`exact`          | Boolean          | false    |          | Vue-Router link prop.
-`input-type`     | String           |          |          | Use this prop to turn btn to checkbox or radio input. Supported types: `checkbox` / `radio`
-`input-value`    |                  |          |          | The value of input.
-`v-model`        |                  |          |          | The model of input. Note that this prop **is required** if `input-type` present.
-`justified`      | Boolean          | false    |          | Due to Bootstrap limitation, this prop is needed while using `<btn>` in `<btn-group justified>`. Otherwise it can be ignored.
+`type`           | String           | default  |          | Bootstrap 的按钮类型，支持的值： `default`, `primary`, `info`, `success`, `warning`, `danger`, `link`
+`native-type`    | String           | button   |          | 原生按钮类型。 支持的值:`button`, `submit`, `reset`
+`size`           | String           |          |          | 可选尺寸， 支持的值: `lg`, `sm`, `xs`
+`block`          | Boolean          | false    |          | 块级样式
+`active`         | Boolean          | false    |          | 激活状态
+`disabled`       | Boolean          | false    |          | 禁用状态
+`href`           | String           |          |          | 如果指定了该参数，将渲染为链接标签
+`target`         | String           |          |          | 原生链接标签参数
+`to`             | String or Object |          |          | 如果指定了该参数，将渲染为 Vue-Router 链接标签
+`replace`        | Boolean          | false    |          | Vue-Router 链接标签参数
+`append`         | Boolean          | false    |          | Vue-Router 链接标签参数
+`exact`          | Boolean          | false    |          | Vue-Router 链接标签参数
+`input-type`     | String           |          |          | 如果指定了该参数，将渲染为单选或多选输入，支持的值: `checkbox` / `radio`
+`input-value`    |                  |          |          | 输入值
+`v-model`        |                  |          |          | 输入 model，注意在指定了 `input-type` 时，该参数是**必填**的
+`justified`      | Boolean          | false    |          | 由于 Bootstrap 限制， 当在 `<btn-group justified>` 中使用 `<btn>` 时需要指定该参数，其余情况可以忽略
 
-#### Slots
+#### 插槽
 
 Name      | Description
 --------- | -----------------------
-`default` | The button body.
+`default` | 按钮体
 
-#### Events
+#### 事件
 
 Name        | Params | Description
 ----------- | ------ | ---------------
-`click`     |        | Click event of button / link.
+`click`     |        | 点击事件
 
 ::: tip
-Use the `.native` modifier to capture browser native events such as: `@click.native="..."`, `@mouseover.native="..."`, etc.
+使用 `.native` 修饰符来捕获浏览器原生事件，如 `@click.native="..."` ， `@mouseover.native="..."`，等等。
 :::
