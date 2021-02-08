@@ -1,46 +1,44 @@
 # Collapse 折叠面板
 
-> Flexible plugin for easy toggle behavior.
+## 样例
 
-## Example
-
-Click the button below to show and hide another element.
+点击以下按钮来显示或隐藏一些内容：
 
 <collapse-example/>
 
 <<< @/docs/.vuepress/components/collapse/example.vue
 
-## Accordion
+## 手风琴
 
-Extend the default collapse behavior to create an accordion with the panel component.
+通过拓展折叠面板来实现手风琴效果：
 
 <collapse-accordion/>
 
 <<< @/docs/.vuepress/components/collapse/accordion.vue
 
-## API Reference
+## API 文档
 
 ### [Collapse](https://github.com/uiv-lib/uiv/blob/1.x/src/components/collapse/Collapse.vue)
 
-#### Props
+#### 参数
 
-Name                  | Type       | Default  | Required | Description
+名字                  | 类型       | 默认值  | 必填 | 描述
 ----------------      | ---------- | -------- | -------- | -----------------------
-`v-model`             | Boolean    | false    | &#10004; | Show / hide the component.
-`tag`                 | String     | div      |          | The HTML tag that render the collapse component.
-`transition` | Number     | 350      |          | Collapse transition speed. Use 0 to disable transition.
+`v-model`             | Boolean    | false    | &#10004; | 显示或隐藏
+`tag`                 | String     | div      |          | 渲染使用的 HTML 标签
+`transition`          | Number     | 350      |          | 折叠动画速度，设置为 0 以禁用动画
 
-#### Slots
+#### 插槽
 
-Name      | Description
+名字      | 描述
 --------- | -----------------------
 `default` | Replace as the collapse body.
 
-#### Events
+#### 事件
 
-Name        | Params | Description
+名字        | 参数 | 描述
 ----------- | ------ | ---------------
-`show`      |        | This event fires immediately when the v-model prop is set to true.
-`shown`     |        | This event is fired when a collapse element has been made visible to the user (will wait for CSS transitions to complete).
-`hide`      |        | 	This event is fired immediately when the v-model prop is set to false.
-`hidden`    |        | This event is fired when a collapse element has been hidden from the user (will wait for CSS transitions to complete).
+`show`      |        | 该事件会在 v-model 设置为 true 后立触发
+`shown`     |        | 该事件会在折叠内容完全展示后触发（将等待动画结束）
+`hide`      |        | 该事件会在 v-model 设置为 false 后立触发
+`hidden`    |        |  该事件会在折叠内容完全隐藏后触发（将等待动画结束）

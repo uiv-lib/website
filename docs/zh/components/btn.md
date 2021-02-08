@@ -76,7 +76,7 @@
 
 #### 参数
 
-Name             | Type             | Default  | Required | Description
+名字             | 类型             | 默认值  | 必填 | 描述
 ---------------- | ----------       | -------- | -------- | -----------------------
 `type`           | String           | default  |          | Bootstrap 的按钮类型，支持的值： `default`, `primary`, `info`, `success`, `warning`, `danger`, `link`
 `native-type`    | String           | button   |          | 原生按钮类型。 支持的值:`button`, `submit`, `reset`
@@ -97,13 +97,13 @@ Name             | Type             | Default  | Required | Description
 
 #### 插槽
 
-Name      | Description
+名字      | 描述
 --------- | -----------------------
 `default` | 按钮体
 
 #### 事件
 
-Name        | Params | Description
+名字        | 参数 | 描述
 ----------- | ------ | ---------------
 `click`     |        | 点击事件
 

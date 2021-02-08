@@ -1,85 +1,83 @@
 # ButtonGroup 按钮组
 
-> Group a series of buttons together on a single line with the button group.
-
 ::: warning
-When using tooltips or popovers on elements within a btn-group, make sure they're appended to body.
+当在按钮组的元素中使用 tooltips 或 popovers 时，请确保它们是附加到 body 节点上的。
 :::
 
-## Example
+## 样例
 
-Wrap a series of `<btn>` in `<btn-group>`.
+将一系列 `<btn>` 包裹至 `<btn-group>` 中：
 
 <btn-group-example/>
 
 <<< @/docs/.vuepress/components/btn-group/example.vue
 
-## Button toolbar
+## 按钮工具栏
 
-Combine sets of `<btn-group>` into a `<btn-toolbar>` for more complex components.
+将一系列 `<btn-group>` 包裹至 `<btn-toolbar>` 中以实现更复杂的场景：
 
 <btn-group-toolbar/>
 
 <<< @/docs/.vuepress/components/btn-group/toolbar.vue
 
-## Sizing
+## 尺寸
 
-Instead of applying button sizing classes to every button in a group, just add `size` to each `<btn-group>`, including when nesting multiple groups.
+不需要给按钮组中的每个按钮都增加尺寸样式，只需要给 `<btn-group>` 添加 `size` 属性即可：
 
 <btn-group-sizes/>
 
 <<< @/docs/.vuepress/components/btn-group/sizes.vue
 
-## Nesting
+## 嵌套下拉菜单
 
-`btn-group` class will be automatically added to `<dropdown>` when you want dropdown menus mixed with a series of buttons.
+当在按钮组中嵌套了下拉菜单时，`btn-group` 会被自动添加到 `<dropdown>` 组件：
 
 <btn-group-nesting/>
 
 <<< @/docs/.vuepress/components/btn-group/nesting.vue
 
-## Vertical
+## 垂直排列
 
-Make a set of buttons appear vertically stacked rather than horizontally by adding `vertical`. 
+通过给按钮组增加 `vertical` 属性来将他们变为垂直排列： 
 
 ::: warning
-Split button dropdowns are not supported here.
+分裂为两个按钮的下拉菜单不支持在此处使用
 :::
 
 <btn-group-vertical/>
 
 <<< @/docs/.vuepress/components/btn-group/vertical.vue
 
-## Justified
+## 横向填充
 
-Make a group of buttons stretch at equal sizes to span the entire width of its parent by adding `justified`. Also works with button dropdowns within the button group.
+通过添加 `justified` 属性来允许按钮撑满按钮组的宽度，同样支持下拉菜单。
 
 ::: warning
-Due to Bootstrap limitation, `justified` prop on `<btn>` is needed while it is render as `button`.
+由于 Bootstrap 的限制， `<btn>` 在渲染为 `button` 时需要添加 `justified` 属性。
 :::
 
 <btn-group-justified/>
 
 <<< @/docs/.vuepress/components/btn-group/justified.vue
 
-## API Reference
+## API 文档
 
 ### [BtnGroup](https://github.com/uiv-lib/uiv/blob/1.x/src/components/button/BtnGroup.js)
 
-#### Props
+#### 参数
 
-Name             | Type       | Default  | Required | Description
+名字              | 类型       | 默认值    | 必填  | 描述
 ---------------- | ---------- | -------- | -------- | -----------------------
-`size`           | String     |          |          | Optional button sizes. Supported: `lg`, `sm`, `xs`.
-`vertical`       | Boolean    | false    |          | Apply vertical style.
-`justified`      | Boolean    | false    |          | Apply justified style.
+`size`           | String     |          |          | 自定义尺寸，可选的值：`lg`, `sm`, `xs`.
+`vertical`       | Boolean    | false    |          | 垂直样式
+`justified`      | Boolean    | false    |          | 横向填充样式
 
-#### Slots
+#### 插槽
 
-Name      | Description
+名字       | 描述
 --------- | -----------------------
-`default` | The button group body.
+`default` | 按钮组体
 
 ### [BtnToolbar](https://github.com/uiv-lib/uiv/blob/1.x/src/components/button/BtnToolbar.js)
 
-This component has no props.
+该组件没有参数。
