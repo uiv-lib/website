@@ -1,42 +1,42 @@
 # Affix 悬浮
 
-> The affix component toggles `position: fixed` on and off, emulating the effect found with `position: sticky`.
+> 悬浮组件通过切换 `position: fixed` 开关，来模拟 `position: sticky` 的效果。
 
 ::: tip
-You must provide CSS for the positioning and width of your affixed content.
+你必须为悬浮内容提供 CSS 以定义位置与宽高
 :::
 
 ::: warning
-Do not use affix on an element contained in a relatively positioned element, such as a pulled or pushed column.
+不要在相对定位的容器内使用悬浮组件，比如 pulled 或 pushed column。
 :::
 
-## Example
+## 样例
 
-Try to scroll the page down and see what's happening to the alert:
+尝试滚动本页面并观察警告框的变化：
 
 <affix-example/>
 
 <<< @/docs/.vuepress/components/affix/example.vue
 
-## API Reference
+## API 文档
 
 ### [Affix](https://github.com/uiv-lib/uiv/blob/1.x/src/components/affix/Affix.vue)
 
-#### Props
+#### 参数
 
-Name             | Type       | Default      | Required | Description
+名字             | 类型       | 默认值      | 必填 | 描述
 ---------------- | ---------- | ------------ | -------- | -----------------------
-`offset`         | Number     | 0            |          | Pixels to offset from screen when calculating position of scroll.
+`offset`         | Number     | 0            |          | 当计算滚动悬浮位置时，相对屏幕的偏移像素值
 
 #### Slots
 
-Name      | Description
+名字      | 描述
 --------- | -----------------------
-`default` | The affix body.
+`default` | 悬浮体
 
 #### Events
 
-Name      | Description
+名字      | 描述
 --------- | -----------------------
-`affix`   | This event fires immediately before the element has been affixed.
-`affixed` | This event is fired after the element has been affixed.
+`affix`   | 该事件在元素被悬浮前触发
+`affixed` | 该事件在元素被悬浮后触发
