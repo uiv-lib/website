@@ -18,6 +18,6 @@
   "dependencies": {
     "axios": "0.21.1",
     "bootstrap": "3.4.1",
-    "uiv": "1.2.3"
+    "uiv": "1.2.4"
   }
 }
